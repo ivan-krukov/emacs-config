@@ -15,18 +15,18 @@
 
 					;mouse settings
 (mouse-wheel-mode t)
-(setq scroll-conservatively 10000)
-(setq scroll-step 1)
-(setq mouse-wheel-progressive-speed nil)
+(setq-default scroll-conservatively 10000)
+(setq-default scroll-step 1)
+(setq-default mouse-wheel-progressive-speed nil)
 
 					;line cursor
-(setq-default cursor-type 'bar)
+(setq-default-default cursor-type 'bar)
 
 					;startup screen
-(setq inhibit-startup-screen t)
+(setq-default inhibit-startup-screen t)
 
 					;scratch message
-(setq initial-scratch-message (format ";;GNU EMACS %s\n;;%s" emacs-version (format-time-string "%A, %B %d \n;;%H:%M\n")))
+(setq-default initial-scratch-message (format ";;GNU EMACS %s\n;;%s" emacs-version (format-time-string "%A, %B %d \n;;%H:%M\n")))
 
 					;y-n answers in menus
 (fset 'yes-or-no-p 'y-or-n-p)
@@ -36,7 +36,7 @@
 
 					;ido vertical
 (ido-vertical-mode t)
-(setq ido-vertical-define-keys 'C-n-C-p-up-down-left-right)
+(setq-default ido-vertical-define-keys 'C-n-C-p-up-down-left-right)
 
 					;ido for M-x
 (global-set-key (kbd "M-x") (lambda ()

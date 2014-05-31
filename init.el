@@ -13,6 +13,7 @@
 
 (require 'ik-niceties)
 (require 'sr-speedbar)
+(require 'buffer-move)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

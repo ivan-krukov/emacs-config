@@ -7,4 +7,6 @@
 					;git
 (global-git-gutter-mode t)
 
+					;speedbar
+(setq speedbar-show-unknown-files t)
 (provide 'ik-niceties)

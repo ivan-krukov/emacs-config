@@ -45,4 +45,11 @@
 
 					;expand region
 (global-set-key (kbd "C-\"") 'er/expand-region)
+
+					;indentation
+(setq-default c-basic-offset 4)
+(setq-default tab-width 4)
+(setq-default tab-stop-list '(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60))
+
+
 (provide 'ik-editing)
