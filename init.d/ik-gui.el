@@ -8,7 +8,10 @@
 					;window decorations
 (menu-bar-mode -1)
 (tool-bar-mode -1)
-(scroll-bar-mode nil)
+(scroll-bar-mode -1)
+
+					;font
+(add-to-list 'default-frame-alist '(font . "DejaVu Sans Mono-9"))
 
 					;mouse settings
 (mouse-wheel-mode t)
