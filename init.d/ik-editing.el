@@ -27,12 +27,9 @@
 (global-set-key (kbd "C-x f") 'find-file)
 
 					;autocomplete
-;(require 'auto-complete)
-;(require 'auto-complete-config)
 (ac-config-default)
 
 					;yasnippet
-;(require 'yasnippet)
 (yas-global-mode t)
 
 					;c header
@@ -43,4 +40,9 @@
 (add-hook 'c++-mode-hook 'ik-ac-c-headers-init)
 (add-hook 'c-mode-hool 'ik-ac-c-headers-init)
 
+					;ace-jump-mode
+(define-key global-map (kbd "C-c C-SPC") 'ace-jump-mode)
+
+					;expand region
+(global-set-key (kbd "C-\"") 'er/expand-region)
 (provide 'ik-editing)
