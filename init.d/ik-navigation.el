@@ -5,7 +5,7 @@
 
 					;autosave
 (require 'saveplace)
-(setq-default-default save-place t)
+(setq-default save-place t)
 
 					;backup directory
 (setq-default save-place-file (concat user-emacs-directory "places"))

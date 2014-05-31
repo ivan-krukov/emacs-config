@@ -20,7 +20,7 @@
 (setq-default mouse-wheel-progressive-speed nil)
 
 					;line cursor
-(setq-default-default cursor-type 'bar)
+(setq-default cursor-type 'bar)
 
 					;startup screen
 (setq-default inhibit-startup-screen t)
