@@ -8,3 +8,6 @@ ac-comphist.dat
 elpa/
 backups/
 places
+semanticdb/*
+srecode-map.el
+tramp
