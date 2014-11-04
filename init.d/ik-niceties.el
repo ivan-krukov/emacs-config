@@ -6,7 +6,17 @@
 
 					;git
 (global-git-gutter-mode t)
+(git-gutter:linum-setup)
+										;linum
+(global-linum-mode t)
 
 					;speedbar
 (setq speedbar-show-unknown-files t)
+
+										;perl
+(autoload 'perltidy "perltidy-mode" nil t)
+(autoload 'perltidy-mode "perltidy-mode" nil t)
+
+;; (add-hook 'perl-mode-hook 'perltidy-mode)
+
 (provide 'ik-niceties)
