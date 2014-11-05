@@ -1,6 +1,19 @@
 
 ;;List and install packages as required
-(setq-default package-list '(ace-jump-mode auto-complete-c-headers auto-complete expand-region git-gutter-fringe fringe-helper git-gutter ido-vertical-mode leuven-theme magit git-rebase-mode git-commit-mode monokai-theme org popup smart-mode-line dash tronesque-theme twilight-bright-theme yasnippet iedit))
+;; (setq-default package-list '(ace-jump-mode auto-complete-c-headers auto-complete expand-region git-gutter-fringe fringe-helper git-gutter ido-vertical-mode leuven-theme magit git-rebase-mode git-commit-mode monokai-theme org popup smart-mode-line dash tronesque-theme twilight-bright-theme yasnippet iedit))
+
+(setq-default package-list '(
+							 ace-jump-mode
+							 expand-region
+							 git-gutter-fringe
+							 fringe-helper
+							 git-gutter
+							 ido-vertical-mode
+							 monokai-theme
+							 popup
+							 smart-mode-line
+							 yasnippet
+							 iedit))
 
 (require 'package)
 					; list the repositories containing them

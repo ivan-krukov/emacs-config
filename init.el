@@ -16,11 +16,11 @@
 (require 'ik-navigation)
 (require 'ik-gui)
 
-;(require 'perltidy-mode)
+;; (require 'perltidy-mode)
 (require 'ik-niceties)
 (require 'sr-speedbar)
 (require 'buffer-move)
-(require 'semantic-tag-folding)
+;; (require 'semantic-tag-folding)
 
 
 (custom-set-variables
