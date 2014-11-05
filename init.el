@@ -16,7 +16,7 @@
 (require 'ik-navigation)
 (require 'ik-gui)
 
-(require 'perltidy-mode)
+;(require 'perltidy-mode)
 (require 'ik-niceties)
 (require 'sr-speedbar)
 (require 'buffer-move)
@@ -31,7 +31,7 @@
  '(ansi-color-faces-vector [default default default italic underline success warning error])
  '(ansi-term-color-vector [unspecified "#081724" "#ff694d" "#68f6cb" "#fffe4e" "#bad6e2" "#afc0fd" "#d2f1ff" "#d3f9ee"] t)
  '(compilation-message-face (quote default))
- '(custom-enabled-themes (quote (leuven)))
+ '(custom-enabled-themes (quote (monokai)))
  '(custom-safe-themes (quote ("57f8801351e8b7677923c9fe547f7e19f38c99b80d68c34da6fa9b94dc6d3297" "cb247cf944eea968aa613a5c40f4cb79f4c05503591cf33e5b4224394dd57e94" "ee6081af57dd389d9c94be45d49cf75d7d737c4a78970325165c7d8cb6eb9e34" "75c9f0b0499ecdd0c856939a5de052742d85af81814e84faa666522c2bba7e85" default)))
  '(fci-rule-color "#49483E")
  '(highlight-changes-colors (quote ("#FD5FF0" "#AE81FF")))

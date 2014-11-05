@@ -11,11 +11,11 @@
 (global-linum-mode t)
 
 					;speedbar
-(setq speedbar-show-unknown-files t)
+;(setq speedbar-show-unknown-files t)
 
 										;perl
-(autoload 'perltidy "perltidy-mode" nil t)
-(autoload 'perltidy-mode "perltidy-mode" nil t)
+;(autoload 'perltidy "perltidy-mode" nil t)
+;(autoload 'perltidy-mode "perltidy-mode" nil t)
 
 ;; (add-hook 'perl-mode-hook 'perltidy-mode)
 
