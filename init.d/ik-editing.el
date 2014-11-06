@@ -51,8 +51,42 @@
 (setq-default tab-width 4)
 (setq-default tab-stop-list '(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60))
 
-										;iedit mode
-(setq-default iedit-mode t)
+
+(defun comment-dwim-line (&optional arg)
+  "Replacement for the comment-dwim command.
+        If no region is selected and current line is not blank and we are not at the end of the line,
+        then comment current line.
+        Replaces default behaviour of comment-dwim, when it inserts comment at the end of the line."
+  (interactive "*P")
+  (comment-normalize-vars)
+  (if (and (not (region-active-p)) (not (looking-at "[ \t]*$")))
+	  (comment-or-uncomment-region (line-beginning-position) (line-end-position))
+	(comment-dwim arg)))
+
+(global-set-key "\M-;" 'comment-dwim-line)
+										;; ;iedit mode
+;; (require 'iedit)
+
+
+;; (defun iedit-dwim (arg)
+;;   "Starts iedit but uses \\[narrow-to-defun] to limit its scope."
+;;   (interactive "P")
+;;   (if arg
+;;       (iedit-mode)
+;;     (save-excursion
+;;       (save-restriction
+;;         (widen)
+;;         ;; this function determines the scope of `iedit-start'.
+;;         (if iedit-mode
+;;             (iedit-done)
+;;           ;; `current-word' can of course be replaced by other
+;;           ;; functions.
+;;           (narrow-to-defun)
+;;           (iedit-start (current-word) (point-min) (point-max)))))))
+
+
+
+;; (global-set-key (kbd "C-;") 'iedit-dwim)
 
 										;semantic mode for cedet
 ;; (semantic-mode 1)

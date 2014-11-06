@@ -11,3 +11,4 @@ places
 semanticdb/*
 srecode-map.el
 tramp
+session.*

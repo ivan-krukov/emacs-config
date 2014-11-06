@@ -4,7 +4,7 @@
 					;start in server mode - can connect new clients as I go
 (server-mode t)
 
-					;git
+										;git
 (global-git-gutter-mode t)
 (git-gutter:linum-setup)
 										;linum
@@ -14,6 +14,7 @@
 ;(setq speedbar-show-unknown-files t)
 
 										;perl
+(defalias 'perl-mode 'cperl-mode)
 ;(autoload 'perltidy "perltidy-mode" nil t)
 ;(autoload 'perltidy-mode "perltidy-mode" nil t)
 

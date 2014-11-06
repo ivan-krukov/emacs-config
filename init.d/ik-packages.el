@@ -12,8 +12,8 @@
 							 monokai-theme
 							 popup
 							 smart-mode-line
-							 yasnippet
-							 iedit))
+							 dash
+							 yasnippet))
 
 (require 'package)
 					; list the repositories containing them
