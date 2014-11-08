@@ -6,8 +6,11 @@
 					;parens
 (show-paren-mode t)
 
-					;indentation
+										;indentation
 (electric-indent-mode t)
+
+										;pairing
+(electric-pair-mode t)
 
 					;which function
 ;; (which-function-mode t)
@@ -26,12 +29,15 @@
 					;simpler open file (overwrites column-fill)
 (global-set-key (kbd "C-x f") 'find-file)
 
-					;autocomplete
+										;autocomplete
 (ac-config-default)
-
-					;yasnippet
+										;yasnippet
 (yas-global-mode t)
 
+										;multiple-cursors
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 					;c header
 ;; (defun ik-ac-c-headers-init ()
 ;;   (require 'auto-complete-c-headers)
@@ -44,7 +50,7 @@
 (define-key global-map (kbd "C-c C-SPC") 'ace-jump-mode)
 
 					;expand region
-(global-set-key (kbd "C-\"") 'er/expand-region)
+(global-set-key (kbd "C-=") 'er/expand-region)
 
 					;indentation
 (setq-default c-basic-offset 4)

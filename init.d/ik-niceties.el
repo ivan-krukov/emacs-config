@@ -10,6 +10,8 @@
 										;linum
 (global-linum-mode t)
 
+										;reload things auotmatically
+(global-auto-revert-mode t)
 					;speedbar
 ;(setq speedbar-show-unknown-files t)
 
