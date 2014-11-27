@@ -17,7 +17,11 @@
 (mouse-wheel-mode t)
 (setq-default scroll-conservatively 10000)
 (setq-default scroll-step 1)
+;; (setq-default hscroll-margin 0)
+;; (setq-default hscroll-step 1)
 (setq-default mouse-wheel-progressive-speed nil)
+
+(global-visual-line-mode t)
 
 					;line cursor
 (setq-default cursor-type 'bar)

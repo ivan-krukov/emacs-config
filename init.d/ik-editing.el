@@ -12,6 +12,7 @@
 										;pairing
 (electric-pair-mode t)
 
+
 					;which function
 ;; (which-function-mode t)
 

@@ -16,7 +16,7 @@
 ;(setq speedbar-show-unknown-files t)
 
 										;perl
-(defalias 'perl-mode 'cperl-mode)
+;; (defalias 'perl-mode 'cperl-mode)
 ;(autoload 'perltidy "perltidy-mode" nil t)
 ;(autoload 'perltidy-mode "perltidy-mode" nil t)
 

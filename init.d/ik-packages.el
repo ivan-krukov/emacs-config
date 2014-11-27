@@ -14,7 +14,11 @@
 							 popup
 							 smart-mode-line
 							 dash
-							 multiple-cursors))
+							 yasnippet
+							 clojure-mode
+							 multiple-cursors
+							 markdown-mode
+							 ))
 
 (require 'package)
 					; list the repositories containing them
