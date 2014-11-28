@@ -12,6 +12,8 @@
 							 ido-vertical-mode
 							 monokai-theme
 							 solarized-theme
+							 lush-theme
+							 color-theme-sanityinc-tomorrow
 							 popup
 							 smart-mode-line
 							 dash

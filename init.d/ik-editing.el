@@ -1,7 +1,7 @@
 ;;Settings applying to text editing
 
 					;common mode
-(cua-mode t)
+;; (cua-mode t)
 
 					;parens
 (show-paren-mode t)
@@ -12,7 +12,8 @@
 										;pairing
 (electric-pair-mode t)
 
-
+;; http://www.masteringemacs.org/article/effective-editing-movement
+(setq next-line-add-newlines t)
 					;which function
 ;; (which-function-mode t)
 
