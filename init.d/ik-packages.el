@@ -6,11 +6,12 @@
 							 auto-complete
 							 ace-jump-mode
 							 expand-region
-							 git-gutter-fringe
 							 fringe-helper
 							 git-gutter
+							 git-gutter-fringe
 							 ido-vertical-mode
 							 monokai-theme
+							 solarized-theme
 							 popup
 							 smart-mode-line
 							 dash

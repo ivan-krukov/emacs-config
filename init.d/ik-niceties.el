@@ -5,8 +5,10 @@
 (server-mode t)
 
 										;git
+(require 'git-gutter-fringe)
+(setq git-gutter-fr:side 'right-fringe)
 (global-git-gutter-mode t)
-(git-gutter:linum-setup)
+
 										;linum
 (global-linum-mode t)
 
