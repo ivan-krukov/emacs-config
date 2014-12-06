@@ -10,7 +10,9 @@
 					;backup directory
 (setq-default save-place-file (concat user-emacs-directory "places"))
 (setq-default backup-directory-alist `(("." . ,(concat user-emacs-directory
-					       "backups"))))
+													   "backups"))))
+
+(desktop-save-mode t)
 
 					;simpler buffer switch
 (global-set-key (kbd "C-x C-b") 'switch-to-buffer)

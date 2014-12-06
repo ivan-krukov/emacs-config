@@ -12,3 +12,5 @@ semanticdb/*
 srecode-map.el
 tramp
 session.*
+.emacs.*
+ido.last

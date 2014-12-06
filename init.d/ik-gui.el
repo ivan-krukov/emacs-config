@@ -6,12 +6,21 @@
  '(initial-frame-alist (quote ((fullscreen . maximized)))))
 
 					;window decorations
-;; (menu-bar-mode -1) 
+;; (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
+										;boudnaries
+;; (setq-default indicate-buffer-boundaries 'left)
+;; (setq-default indicate-empty-lines t)
+										;whitespace
+;; (setq-default show-trailing-whitespace t)
+
+										;symobls
+(global-prettify-symbols-mode)
+
 					;font
-(add-to-list 'default-frame-alist '(font . "DejaVu Sans Mono-9"))
+(add-to-list 'default-frame-alist '(font . "Liberation Mono-10"))
 
 					;mouse settings
 (mouse-wheel-mode t)

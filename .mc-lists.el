@@ -3,7 +3,10 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+		c-electric-semi&comma
+		coffee-dedent-line-backspace
 		cua-delete-region
+		org-self-insert-command
 		))
 
 (setq mc/cmds-to-run-once

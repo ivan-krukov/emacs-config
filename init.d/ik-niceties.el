@@ -10,10 +10,13 @@
 (global-git-gutter-mode t)
 
 										;linum
-(global-linum-mode t)
+;; (global-linum-mode t)
 
 										;reload things auotmatically
 (global-auto-revert-mode t)
+
+										;use web-mode insted of html
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 					;speedbar
 ;(setq speedbar-show-unknown-files t)
 

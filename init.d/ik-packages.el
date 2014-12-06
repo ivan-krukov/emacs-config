@@ -21,6 +21,9 @@
 							 clojure-mode
 							 multiple-cursors
 							 markdown-mode
+							 yaml-mode
+							 web-mode
+							 coffee-mode
 							 ))
 
 (require 'package)
